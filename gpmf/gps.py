@@ -41,10 +41,10 @@ def extract_gps_blocks(stream):
     """
     for s in parse.filter_klv(stream, "STRM"):
         content = []
-        is_gps = False
+        is_gps = False  # GPS5 (Hero 5-11) or GPS9 (Hero 11-13)
         for elt in s.value:
             content.append(elt)
-            if elt.key == "GPS5":
+            if elt.key in ["GPS5", "GPS9"]:  # Support both GPS5 and GPS9
                 is_gps = True
         if is_gps:
             yield content
@@ -52,6 +52,8 @@ def extract_gps_blocks(stream):
 
 def parse_gps_block(gps_block):
     """Turn GPS data blocks into `GPSData` objects
+
+    Supports both GPS5 (Hero 5-10) and GPS9 (Hero 11+) streams
 
     Parameters
     ----------
@@ -67,7 +69,24 @@ def parse_gps_block(gps_block):
         s.key: s for s in gps_block
     }
 
-    gps_data = block_dict["GPS5"].value * 1.0 / block_dict["SCAL"].value
+    # Hero 11-13 support: use GPS9 if available (10Hz), fall back to GPS5
+    gps_key = "GPS9" if "GPS9" in block_dict else "GPS5"
+    
+    if gps_key == "GPS9":
+        # GPS9: complex structure with 9 fields (Hero 11+)
+        # Extract first 5 fields (lat, lon, alt, speed_2d, speed_3d) for compatibility
+        gps_values = block_dict["GPS9"].value
+        
+        # Handle both array and single-value cases
+        if hasattr(gps_values, 'shape') and len(gps_values.shape) > 1:
+            # Multi-sample case: use first 5 columns
+            gps_data = gps_values[:, :5] * 1.0 / block_dict["SCAL"].value[:5]
+        else:
+            # Single sample case
+            gps_data = gps_values[:5] * 1.0 / block_dict["SCAL"].value[:5]
+    else:
+        # GPS5: traditional 5-field structure (Hero 5-10)
+        gps_data = block_dict["GPS5"].value * 1.0 / block_dict["SCAL"].value
 
     latitude, longitude, altitude, speed_2d, speed_3d = gps_data.T
 
