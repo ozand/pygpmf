@@ -1,13 +1,50 @@
-# pygpmf
-A python Module to extract GPMF information from Videos
+# pygpmf-oz
+
+> **Modernized Python library for extracting and analyzing GoPro GPMF (telemetry) data**  
+> Supports Python 3.9-3.13 | Windows, Linux, macOS | Active Development 2026
+
+[![PyPI version](https://badge.fury.io/py/pygpmf-oz.svg)](https://pypi.org/project/pygpmf-oz/)
+[![Python versions](https://img.shields.io/pypi/pyversions/pygpmf-oz.svg)](https://pypi.org/project/pygpmf-oz/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+---
+
+## 🚀 What's New in v0.2.0
+
+- ✅ **Python 3.9-3.13 support** (including Python 3.13!)
+- ✅ **Windows native support** with UTF-8 encoding
+- ✅ **Modernized dependencies** (numpy 1.21+, pandas 1.3+, matplotlib 3.5+)
+- ✅ **Published on PyPI** - `pip install pygpmf-oz`
+- 🔜 **Coming soon**: Hero 11-13 support, GyroFlow integration, ML analytics
+
+📖 **See full roadmap**: [DEVELOPMENT_ROADMAP.md](DEVELOPMENT_ROADMAP.md)
+
+---
+
+## 📦 Installation
+
+```bash
+pip install pygpmf-oz
+```
+
+For development:
+```bash
+git clone https://github.com/ozand/pygpmf.git
+cd pygpmf
+pip install -e .
+```
+
+---
+
+## 🎯 Quick Start
+
+A python Module to extract GPMF information from GoPro videos.
 
 More information on the format is available on the
 [GoPro GitHub page](https://github.com/gopro/gpmf-parser).
 
-The primay aim of this project was to be able to extract GPS tracks
-from GoPro video files, so the GPS part is more tested.
-
-We use `python-ffmpeg` to extract the GPMF stream from video files.
+The primary aim of this project is to extract GPS tracks and sensor data
+from GoPro video files. We use `ffmpeg-python` to extract the GPMF stream from video files.
 
 ```python
 import gpmf
@@ -73,3 +110,106 @@ gpmf.gps_plot.plot_gps_trace_from_stream(stream)
 ```
 
 ![GPS Track Image](./images/GH010215.png)
+
+---
+
+## 🎓 Use Cases
+
+### 🚴 Sports & Fitness
+- Extract GPS tracks for training analysis
+- Export to GPX for Strava/Garmin compatibility
+- Analyze speed, elevation, distance
+
+### 🎬 Video Production
+- Sync telemetry overlays with video
+- Create data visualizations for dashboards
+- Export metadata for After Effects
+
+### 🔬 Research & Analysis
+- Scientific motion studies
+- Vehicle telemetry analysis
+- ML training data extraction
+
+### 🎮 FPV & Action Sports
+- Video stabilization with GyroFlow (coming Q2 2026)
+- G-force analysis
+- Jump/trick detection
+
+---
+
+## 🗺️ Development Roadmap
+
+### Q1 2026: Stabilization & Documentation ⚡
+- [x] PyPI publication (v0.2.0)
+- [ ] Comprehensive unit tests
+- [ ] Sphinx documentation + ReadTheDocs
+- [ ] Hero 11/12/13 support
+
+### Q2 2026: GyroFlow Integration 🎯
+- [ ] Export gyro data for GyroFlow
+- [ ] Video stabilization workflow
+- [ ] Python API integration
+
+### Q3 2026: ML Analytics 🤖
+- [ ] Automatic activity detection
+- [ ] Trip analysis & statistics
+- [ ] Interactive dashboards (Plotly)
+
+### Q4 2026: Real-time & Streaming 📡
+- [ ] Live telemetry streaming
+- [ ] WebSocket API
+- [ ] OBS Studio integration
+
+📖 **Full roadmap**: [DEVELOPMENT_ROADMAP.md](DEVELOPMENT_ROADMAP.md)
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+**Help needed with**:
+- Testing with Hero 11/12/13 files
+- Documentation & examples
+- Feature development
+- Bug reports & feedback
+
+---
+
+## 📚 Documentation
+
+- **Quick Start**: [EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md)
+- **Full Roadmap**: [DEVELOPMENT_ROADMAP.md](DEVELOPMENT_ROADMAP.md)
+- **Russian Documentation**: [README_RU.md](README_RU.md)
+- **Windows Installation**: [WINDOWS_INSTALL.md](WINDOWS_INSTALL.md)
+- **Changelog**: [CHANGELOG.md](CHANGELOG.md)
+
+---
+
+## 🔗 Related Projects
+
+- [GoPro GPMF Parser](https://github.com/gopro/gpmf-parser) - Official C/C++ parser
+- [GyroFlow](https://github.com/gyroflow/gyroflow) - Video stabilization using gyro data
+- [Telemetry Extractor](https://goprotelemetryextractor.com/) - Commercial GUI tool
+
+---
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Credits
+
+**Original Author**: Alexis Mignon  
+**Maintainer**: ozand  
+**Contributors**: See [CHANGELOG.md](CHANGELOG.md)
+
+Based on the unmaintained [alexis-mignon/pygpmf](https://github.com/alexis-mignon/pygpmf) fork.
+
+---
+
+**⭐ If you find this useful, please star the repo!**  
+**📦 PyPI**: https://pypi.org/project/pygpmf-oz/  
+**🐛 Issues**: https://github.com/ozand/pygpmf/issues
