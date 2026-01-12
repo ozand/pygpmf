@@ -64,7 +64,7 @@ def plot_gps_trace(latlon,
         Minimum size of the map in km
     map_provider: dict
         Dictionnary describing a map provider as given by `contextly.providers`. If None
-        `contextily.providers.GeoportailFrance["maps"]` is used.
+        `contextily.providers.OpenStreetMap.Mapnik` is used.
     zoom: int, optional (default=12)
         The zoom level used.
     figsize: tuple of int, optional (default=(10, 10))
@@ -76,7 +76,7 @@ def plot_gps_trace(latlon,
         The color used to plot the track.
     """
     if map_provider is None:
-        map_provider = ctx.providers.GeoportailFrance["maps"]
+        map_provider = ctx.providers.OpenStreetMap.Mapnik
 
     min_tile_size *= 1000
 
@@ -135,7 +135,7 @@ def plot_gps_trace_from_stream(stream,
             Minimum size of the map in km
         map_provider: dict
             Dictionnary describing a map provider as given by `contextly.providers`. If None
-            `contextily.providers.GeoportailFrance["maps"]` is used.
+            `contextily.providers.OpenStreetMap.Mapnik` is used.
         zoom: int, optional (default=12)
             The zoom level used.
         figsize: tuple of int, optional (default=(10, 10))

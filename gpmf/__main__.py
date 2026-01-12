@@ -65,7 +65,7 @@ def command_gpx_extract(args):
     gpx.tracks.append(gpx_track)
     gpx_track.segments.append(gpx_segment)
 
-    with open(output_path, "w") as out_file:
+    with open(output_path, "w", encoding="utf-8") as out_file:
         out_file.write(gpx.to_xml(version=args.gpx_version))
 
 

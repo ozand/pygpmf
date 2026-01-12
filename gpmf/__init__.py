@@ -3,4 +3,4 @@ from . import gps
 from . import io
 from . import gps_plot
 
-__version__ = "0.1"
+__version__ = "0.2.0"
