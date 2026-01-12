@@ -5,7 +5,9 @@
 
 [![PyPI version](https://badge.fury.io/py/pygpmf-oz.svg)](https://pypi.org/project/pygpmf-oz/)
 [![Python versions](https://img.shields.io/pypi/pyversions/pygpmf-oz.svg)](https://pypi.org/project/pygpmf-oz/)
+[![Documentation Status](https://readthedocs.org/projects/pygpmf-oz/badge/?version=latest)](https://pygpmf-oz.readthedocs.io/en/latest/?badge=latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Test Coverage](https://img.shields.io/badge/coverage-79.51%25-brightgreen)](htmlcov/index.html)
 
 ---
 
@@ -17,7 +19,8 @@
 - ✅ **Published on PyPI** - `pip install pygpmf-oz`
 - 🔜 **Coming soon**: Hero 11-13 support, GyroFlow integration, ML analytics
 
-📖 **See full roadmap**: [DEVELOPMENT_ROADMAP.md](DEVELOPMENT_ROADMAP.md)
+📖 **Documentation**: [pygpmf-oz.readthedocs.io](https://pygpmf-oz.readthedocs.io/)  
+📋 **Full roadmap**: [DEVELOPMENT_ROADMAP.md](DEVELOPMENT_ROADMAP.md)
 
 ---
 

@@ -1,10 +1,15 @@
 # pygpmf_oz - Модуль для извлечения GPMF данных из видео GoPro
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyPI](https://img.shields.io/pypi/v/pygpmf_oz.svg)](https://pypi.org/project/pygpmf_oz/)
+[![PyPI version](https://badge.fury.io/py/pygpmf-oz.svg)](https://pypi.org/project/pygpmf-oz/)
+[![Python versions](https://img.shields.io/pypi/pyversions/pygpmf-oz.svg)](https://pypi.org/project/pygpmf-oz/)
+[![Documentation Status](https://readthedocs.org/projects/pygpmf-oz/badge/?version=latest)](https://pygpmf-oz.readthedocs.io/en/latest/?badge=latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Test Coverage](https://img.shields.io/badge/coverage-79.51%25-brightgreen)](htmlcov/index.html)
 
 Обновленная и адаптированная версия проекта для работы с современными версиями Python (3.9+) и полной поддержкой Windows.
+
+📖 **Документация**: [pygpmf-oz.readthedocs.io](https://pygpmf-oz.readthedocs.io/)  
+📋 **Дорожная карта**: [DEVELOPMENT_ROADMAP.md](DEVELOPMENT_ROADMAP.md)
 
 ## 🎯 Особенности
 
