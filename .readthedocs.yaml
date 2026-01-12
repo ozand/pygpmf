@@ -8,24 +8,10 @@ sphinx:
   configuration: docs/conf.py
   fail_on_warning: false
 
-# Build documentation with MkDocs
-#mkdocs:
-#  configuration: mkdocs.yml
-
 # Optionally build your docs in additional formats such as PDF
 formats:
   - pdf
   - epub
-
-# Python version
-python:
-  version: "3.9"
-  install:
-    - requirements: requirements.txt
-    - method: pip
-      path: .
-      extra_requirements:
-        - dev
 
 # Build environment
 build:
@@ -34,3 +20,12 @@ build:
     python: "3.9"
   apt_packages:
     - ffmpeg
+
+# Python dependencies
+python:
+  install:
+    - requirements: requirements.txt
+    - method: pip
+      path: .
+      extra_requirements:
+        - dev
