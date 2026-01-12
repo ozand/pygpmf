@@ -33,8 +33,8 @@ pip install pygpmf-oz
 
 For development:
 ```bash
-git clone https://github.com/ozand/pygpmf.git
-cd pygpmf
+git clone https://github.com/ozand/pygpmf-oz.git
+cd pygpmf-oz
 pip install -e .
 ```
 
@@ -218,5 +218,5 @@ Key improvements include Python 3.9-3.13 support, Windows compatibility, and act
 
 **⭐ If you find this useful, please star the repo!**  
 **📦 PyPI**: https://pypi.org/project/pygpmf-oz/  
-**🐛 Issues**: https://github.com/ozand/pygpmf/issues
+**🐛 Issues**: https://github.com/ozand/pygpmf-oz/issues
 

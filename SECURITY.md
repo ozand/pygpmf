@@ -3,11 +3,11 @@
 ## 🔒 Reporting Security Issues / Сообщение о проблемах безопасности
 
 **English**: If you discover a security vulnerability in this project, please report it privately:
-- **GitHub Security Advisories**: https://github.com/ozand/pygpmf/security/advisories/new
+- **GitHub Security Advisories**: https://github.com/ozand/pygpmf-oz/security/advisories/new
 - **Email**: Create an issue with `[SECURITY]` tag (without details), we'll follow up privately
 
 **Русский**: Если вы обнаружили уязвимость безопасности в проекте, пожалуйста, сообщите об этом приватно:
-- **GitHub Security Advisories**: https://github.com/ozand/pygpmf/security/advisories/new
+- **GitHub Security Advisories**: https://github.com/ozand/pygpmf-oz/security/advisories/new
 - **Email**: Создайте issue с меткой `[SECURITY]` (без деталей), мы свяжемся приватно
 
 ---

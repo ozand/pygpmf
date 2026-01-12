@@ -201,8 +201,8 @@ print(f"Sample rate: {gyro_data.frequency} Hz")
 
 ### Контакты
 
-- GitHub: https://github.com/ozand/pygpmf
-- Issues: https://github.com/ozand/pygpmf/issues
+- GitHub: https://github.com/ozand/pygpmf-oz
+- Issues: https://github.com/ozand/pygpmf-oz/issues
 - PyPI: https://pypi.org/project/pygpmf-oz/
 
 ---

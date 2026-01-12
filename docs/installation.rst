@@ -17,7 +17,7 @@ Clone the repository and install:
 
 .. code-block:: bash
 
-   git clone https://github.com/ozand/pygpmf_oz.git
+   git clone https://github.com/ozand/pygpmf-oz.git
    cd pygpmf_oz
    pip install -e .
 

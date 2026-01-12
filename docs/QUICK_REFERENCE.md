@@ -41,7 +41,7 @@
 
 # Fill in:
 # Project: pygpmf-oz
-# Repo: ozand/pygpmf
+# Repo: ozand/pygpmf-oz
 # Workflow: .github/workflows/publish-to-pypi.yml
 # Env: pypi (or testpypi)
 ```

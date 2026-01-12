@@ -198,4 +198,4 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
 
 ---
 
-**Need help?** Open an [issue](https://github.com/ozand/pygpmf/issues) or [discussion](https://github.com/ozand/pygpmf/discussions)
+**Need help?** Open an [issue](https://github.com/ozand/pygpmf-oz/issues) or [discussion](https://github.com/ozand/pygpmf-oz/discussions)

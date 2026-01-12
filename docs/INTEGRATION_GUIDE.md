@@ -248,10 +248,10 @@ A: Planned for v0.3.1 (Q1 2026). Currently module has placeholder functions.
 ## References
 
 - **pygpmf-oz on PyPI**: https://pypi.org/project/pygpmf-oz/
-- **GitHub Repository**: https://github.com/ozand/pygpmf_oz
+- **GitHub Repository**: https://github.com/ozand/pygpmf-oz
 - **GPMF Spec**: https://github.com/gopro/gpmf-parser
 - **GyroFlow Project**: https://github.com/gyroflow/gyroflow
 
 ---
 
-**Need help?** Open an issue on GitHub: https://github.com/ozand/pygpmf_oz/issues
+**Need help?** Open an issue on GitHub: https://github.com/ozand/pygpmf-oz/issues

@@ -15,7 +15,7 @@ We especially need:
 - Various activities (cycling, skiing, driving, flying)
 
 **To report a bug**:
-1. Check existing [issues](https://github.com/ozand/pygpmf/issues)
+1. Check existing [issues](https://github.com/ozand/pygpmf-oz/issues)
 2. Create a new issue with:
    - GoPro model & firmware version
    - Python version & OS
@@ -46,7 +46,7 @@ git push origin docs/improve-xyz
 ### 3. Code Contributions 💻
 
 **Before starting:**
-1. Check [existing issues](https://github.com/ozand/pygpmf/issues) or [roadmap](DEVELOPMENT_ROADMAP.md)
+1. Check [existing issues](https://github.com/ozand/pygpmf-oz/issues) or [roadmap](DEVELOPMENT_ROADMAP.md)
 2. Comment on the issue you want to work on
 3. Fork the repository
 4. Create a feature branch
@@ -110,7 +110,7 @@ Examples:
 **Have an idea?**
 
 1. Check [roadmap](DEVELOPMENT_ROADMAP.md) to see if it's planned
-2. Search [existing issues](https://github.com/ozand/pygpmf/issues)
+2. Search [existing issues](https://github.com/ozand/pygpmf-oz/issues)
 3. Create a new issue with:
    - Clear use case
    - Expected behavior
@@ -291,6 +291,6 @@ Every contribution helps make pygpmf-oz better for everyone. Whether it's:
 
 ---
 
-**Questions?** Open a [GitHub Discussion](https://github.com/ozand/pygpmf/discussions) or comment on an issue.
+**Questions?** Open a [GitHub Discussion](https://github.com/ozand/pygpmf-oz/discussions) or comment on an issue.
 
 **Need help?** Tag @ozand in comments or open a "help wanted" issue.

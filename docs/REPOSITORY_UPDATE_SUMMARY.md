@@ -12,7 +12,7 @@
 | -------------- | ------------------------------- | ----------------------- |
 | **Owner**      | alexis-mignon                   | ozand                   |
 | **Repository** | pygpmf                          | pygpmf                  |
-| **URL**        | github.com/alexis-mignon/pygpmf | github.com/ozand/pygpmf |
+| **URL**        | github.com/alexis-mignon/pygpmf | github.com/ozand/pygpmf-oz |
 
 ### 2. Метаданные пакета (setup.cfg)
 
@@ -26,11 +26,11 @@ maintainer = ozand
 maintainer_email = ozand@users.noreply.github.com
 description = A module to read GPMF data embedded in GoPro video files. 
               Fork of pygpmf by Alexis Mignon with Python 3.9+ and Windows support.
-url = https://github.com/ozand/pygpmf
+url = https://github.com/ozand/pygpmf-oz
 
 project_urls =
-    Bug Tracker = https://github.com/ozand/pygpmf/issues
-    Source = https://github.com/ozand/pygpmf
+    Bug Tracker = https://github.com/ozand/pygpmf-oz/issues
+    Source = https://github.com/ozand/pygpmf-oz
     Documentation = https://pygpmf-oz.readthedocs.io/
     Original Project = https://github.com/alexis-mignon/pygpmf
 ```
@@ -72,10 +72,10 @@ Python 3.9-3.13, совместимость с Windows, активная под�
 ## 🔗 Обновленные ссылки
 
 ### GitHub
-- **Repository**: https://github.com/ozand/pygpmf
-- **Issues**: https://github.com/ozand/pygpmf/issues
-- **Releases**: https://github.com/ozand/pygpmf/releases
-- **Settings/Secrets**: https://github.com/ozand/pygpmf/settings/secrets/actions
+- **Repository**: https://github.com/ozand/pygpmf-oz
+- **Issues**: https://github.com/ozand/pygpmf-oz/issues
+- **Releases**: https://github.com/ozand/pygpmf-oz/releases
+- **Settings/Secrets**: https://github.com/ozand/pygpmf-oz/settings/secrets/actions
 
 ### PyPI
 - **Package**: https://pypi.org/project/pygpmf-oz/
@@ -119,7 +119,7 @@ Python 3.9-3.13, совместимость с Windows, активная под�
 
 ### ReadTheDocs API Token
 
-**URL для настройки**: https://github.com/ozand/pygpmf/settings/secrets/actions
+**URL для настройки**: https://github.com/ozand/pygpmf-oz/settings/secrets/actions
 
 **Секрет для добавления**:
 - **Name**: `READTHEDOCS_TOKEN`
@@ -140,13 +140,13 @@ https://readthedocs.org/accounts/tokens/
 # Проверить версию и автора
 python setup.py --version  # 0.3.0
 python setup.py --author   # ozand
-python setup.py --url      # https://github.com/ozand/pygpmf
+python setup.py --url      # https://github.com/ozand/pygpmf-oz
 
 # Проверить метаданные пакета
 pip show pygpmf-oz
 # Name: pygpmf-oz
 # Author: ozand
-# Home-page: https://github.com/ozand/pygpmf
+# Home-page: https://github.com/ozand/pygpmf-oz
 ```
 
 ### Ссылки в setup.cfg:
@@ -157,7 +157,7 @@ grep "Original Project" setup.cfg
 
 **Ожидаемый вывод**:
 ```
-url = https://github.com/ozand/pygpmf
+url = https://github.com/ozand/pygpmf-oz
     Original Project = https://github.com/alexis-mignon/pygpmf
 ```
 
@@ -171,7 +171,7 @@ url = https://github.com/ozand/pygpmf
 | **Version**          | 0.2.1                | 0.3.0                |
 | **Author**           | Alexis Mignon        | ozand                |
 | **Maintainer**       | -                    | ozand                |
-| **Repository**       | alexis-mignon/pygpmf | ozand/pygpmf         |
+| **Repository**       | alexis-mignon/pygpmf | ozand/pygpmf-oz         |
 | **Original Project** | -                    | alexis-mignon/pygpmf |
 
 ---
@@ -180,12 +180,12 @@ url = https://github.com/ozand/pygpmf
 
 ### Немедленные действия (2 минуты)
 1. ✅ Добавить `READTHEDOCS_TOKEN` в GitHub Secrets
-2. ✅ Проверить что репозиторий существует на https://github.com/ozand/pygpmf
+2. ✅ Проверить что репозиторий существует на https://github.com/ozand/pygpmf-oz
 
 ### Перед публикацией v0.3.0
 1. Зарегистрировать Trusted Publishers на PyPI:
    - Project name: `pygpmf-oz`
-   - Repository: `ozand/pygpmf` ← обновлено
+   - Repository: `ozand/pygpmf-oz` ← обновлено
    - Workflow: `.github/workflows/publish-to-pypi.yml`
 
 2. Проверить метаданные локально:
@@ -205,7 +205,7 @@ url = https://github.com/ozand/pygpmf
 ## 📜 История коммитов
 
 ```
-fdf6ca1 Update repository info: change to ozand/pygpmf, set ozand as author
+fdf6ca1 Update repository info: change to ozand/pygpmf-oz, set ozand as author
 2aa9565 Add ReadTheDocs integration to release workflow
 b6b48d3 Add quick reference card for release (5-minute guide)
 ```
@@ -217,7 +217,7 @@ b6b48d3 Add quick reference card for release (5-minute guide)
 ✅ **Все ссылки обновлены**: 15 файлов изменено  
 ✅ **Метаданные корректны**: ozand - автор и maintainer  
 ✅ **Атрибуция присутствует**: Alexis Mignon указан как создатель оригинального pygpmf  
-✅ **Репозиторий правильный**: github.com/ozand/pygpmf  
+✅ **Репозиторий правильный**: github.com/ozand/pygpmf-oz  
 ✅ **ReadTheDocs интеграция**: готова к использованию  
 
 **Статус**: ✅ **ГОТОВО К ПУБЛИКАЦИИ v0.3.0**

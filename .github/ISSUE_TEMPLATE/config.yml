@@ -2,11 +2,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: 💬 GitHub Discussions
-    url: https://github.com/ozand/pygpmf/discussions
+    url: https://github.com/ozand/pygpmf-oz/discussions
     about: Ask questions, share ideas, and discuss with the community
   - name: 📚 Documentation
-    url: https://github.com/ozand/pygpmf/blob/master/README.md
+    url: https://github.com/ozand/pygpmf-oz/blob/master/README.md
     about: Read the documentation and examples
   - name: 🗺️ Development Roadmap
-    url: https://github.com/ozand/pygpmf/blob/master/DEVELOPMENT_ROADMAP.md
+    url: https://github.com/ozand/pygpmf-oz/blob/master/DEVELOPMENT_ROADMAP.md
     about: View our development plans and upcoming features

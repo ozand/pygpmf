@@ -150,8 +150,8 @@ d1c52f1 Implement Hero 11-13 GPS9 support with comprehensive tests
 
 ## Contact & Support
 
-- **GitHub**: https://github.com/ozand/pygpmf_oz
-- **Issues**: https://github.com/ozand/pygpmf_oz/issues
+- **GitHub**: https://github.com/ozand/pygpmf-oz
+- **Issues**: https://github.com/ozand/pygpmf-oz/issues
 - **PyPI**: https://pypi.org/project/pygpmf-oz/
 
 ---

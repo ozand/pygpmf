@@ -43,13 +43,13 @@
 
 **PyPI**: https://pypi.org/manage/account/publishing/
 - Project name: `pygpmf-oz`
-- Repository: `ozand/pygpmf`
+- Repository: `ozand/pygpmf-oz`
 - Workflow: `.github/workflows/publish-to-pypi.yml`
 - Environment: `pypi`
 
 **TestPyPI**: https://test.pypi.org/manage/account/publishing/
 - Project name: `pygpmf-oz`
-- Repository: `ozand/pygpmf`
+- Repository: `ozand/pygpmf-oz`
 - Workflow: `.github/workflows/publish-to-pypi.yml`
 - Environment: `testpypi`
 
@@ -212,7 +212,7 @@ Impact: Complete removal, rare (only for malware/legal issues)
 1. Package appears on https://pypi.org/project/pygpmf-oz/0.3.0/
 2. Installation works: `pip install pygpmf-oz==0.3.0`
 3. Version detected: `import gpmf; gpmf.__version__ == "0.3.0"`
-4. GitHub Release created at: https://github.com/ozand/pygpmf/releases/tag/v0.3.0
+4. GitHub Release created at: https://github.com/ozand/pygpmf-oz/releases/tag/v0.3.0
 5. Dist artifacts attached to release (wheel + source)
 6. No warnings in PyPI project page
 

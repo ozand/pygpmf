@@ -168,7 +168,7 @@ When publishing:
 **Fix**:
 1. Go to https://pypi.org/manage/account/publishing/
 2. Verify exact project name: `pygpmf-oz`
-3. Verify exact repository: `ozand/pygpmf`
+3. Verify exact repository: `ozand/pygpmf-oz`
 4. Verify exact workflow filename: `.github/workflows/publish-to-pypi.yml`
 5. Verify exact environment name: `pypi`
 

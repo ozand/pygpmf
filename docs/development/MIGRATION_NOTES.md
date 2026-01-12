@@ -40,7 +40,7 @@
 - "python-ffmpeg", "descartes"
 + "ffmpeg-python>=0.2.0" (и другие с версиями)
 + classifiers для Python 3.9-3.12 и OS
-+ url изменен на github.com/ozand/pygpmf
++ url изменен на github.com/ozand/pygpmf-oz
 ```
 
 ### 3. gpmf/gps_plot.py

@@ -112,8 +112,8 @@ pip install --index-url https://test.pypi.org/simple/ pygpmf_oz
 
 ## Ссылки
 
-- GitHub репозиторий: https://github.com/ozand/pygpmf
-- Релиз v0.2.0: https://github.com/ozand/pygpmf/releases/tag/v0.2.0
+- GitHub репозиторий: https://github.com/ozand/pygpmf-oz
+- Релиз v0.2.0: https://github.com/ozand/pygpmf-oz/releases/tag/v0.2.0
 - После загрузки: https://pypi.org/project/pygpmf_oz/
 
 ## Контакты

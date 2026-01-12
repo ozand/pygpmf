@@ -185,7 +185,7 @@ MIT License - см. [LICENSE](LICENSE)
 
 ## 🔗 Ссылки
 
-- [GitHub Repository](https://github.com/ozand/pygpmf)
+- [GitHub Repository](https://github.com/ozand/pygpmf-oz)
 - [PyPI Package](https://pypi.org/project/pygpmf-oz/)
 - [Оригинальный проект](https://github.com/alexis-mignon/pygpmf) (Alexis Mignon)
 - [GPMF Parser](https://github.com/gopro/gpmf-parser)

@@ -32,4 +32,4 @@ More Examples
 -------------
 
 Find more examples in the `examples` directory of the repository:
-https://github.com/ozand/pygpmf_oz/tree/main/examples
+https://github.com/ozand/pygpmf-oz/tree/main/examples

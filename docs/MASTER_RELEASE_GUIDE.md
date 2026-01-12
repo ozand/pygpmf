@@ -19,7 +19,7 @@ https://test.pypi.org/manage/account/publishing/
 
 # Fill in for both:
 # Project name: pygpmf-oz
-# Repository: ozand/pygpmf
+# Repository: ozand/pygpmf-oz
 # Workflow: .github/workflows/publish-to-pypi.yml
 # Environment: pypi (for PyPI), testpypi (for TestPyPI)
 ```
@@ -182,7 +182,7 @@ TRUSTED PUBLISHER SETUP
 □ Registered PyPI Trusted Publisher  # https://pypi.org/manage/account/publishing/
 □ Registered TestPyPI Trusted Publisher  # https://test.pypi.org/manage/account/publishing/
 □ Environment protection enabled    # GitHub Settings → Environments → pypi
-□ Repository name correct (ozand/pygpmf)
+□ Repository name correct (ozand/pygpmf-oz)
 □ Workflow filename correct (.github/workflows/publish-to-pypi.yml)
 
 PUBLICATION

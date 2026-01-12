@@ -96,9 +96,9 @@ Located in project root:
 ## 🔗 External Resources
 
 - **PyPI Package**: https://pypi.org/project/pygpmf-oz/
-- **GitHub Repository**: https://github.com/ozand/pygpmf
+- **GitHub Repository**: https://github.com/ozand/pygpmf-oz
 - **Documentation Site**: https://pygpmf-oz.readthedocs.io/
-- **Issue Tracker**: https://github.com/ozand/pygpmf/issues
+- **Issue Tracker**: https://github.com/ozand/pygpmf-oz/issues
 - **Original Project**: https://github.com/alexis-mignon/pygpmf (by Alexis Mignon)
 
 ---

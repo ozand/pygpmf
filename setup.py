@@ -33,7 +33,7 @@ if __name__ == "__main__":
             "contextily>=1.3.0",
             "matplotlib>=3.5.0"
         ],
-        url="https://github.com/ozand/pygpmf_oz",
+        url="https://github.com/ozand/pygpmf-oz",
         classifiers=[
             "Development Status :: 4 - Beta",
             "Intended Audience :: Developers",

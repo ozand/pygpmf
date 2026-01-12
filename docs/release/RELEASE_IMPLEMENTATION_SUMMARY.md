@@ -277,7 +277,7 @@ b0bd22c Commit updated documentation for Hero 11-13 support (Task 5)
 https://pypi.org/manage/account/publishing/
 ```
 - Project: `pygpmf-oz`
-- Repository: `ozand/pygpmf`
+- Repository: `ozand/pygpmf-oz`
 - Workflow: `.github/workflows/publish-to-pypi.yml`
 - Environment: `pypi`
 
