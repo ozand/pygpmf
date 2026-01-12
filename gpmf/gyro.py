@@ -213,4 +213,4 @@ def export_gyroflow_json(gyro_data, accel_data=None, output_path=None):
     """
     # Placeholder for GyroFlow integration
     # Will implement JSON export matching GyroFlow specification
-    raise NotImplementedError("GyroFlow export coming in v0.3.0")
+    raise NotImplementedError("GyroFlow export planned for v0.4.0")

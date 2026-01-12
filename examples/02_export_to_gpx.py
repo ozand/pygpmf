@@ -57,7 +57,7 @@ def main():
     gpx = gpxpy.gpx.GPX()
     
     # Add metadata
-    gpx.creator = "pygpmf-oz v0.2.0"
+    gpx.creator = "pygpmf-oz v0.3.0"
     gpx.name = f"GoPro Track - {datetime.now().strftime('%Y-%m-%d')}"
     gpx.description = f"GPS track extracted from {VIDEO_FILE}"
     

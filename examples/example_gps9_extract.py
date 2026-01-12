@@ -11,7 +11,7 @@ Hero 11-13 GPS Features:
 - Compatible with Hero 5-10 (falls back to GPS5 if present)
 
 Requirements:
-- pygpmf_oz v0.2.1+
+- pygpmf_oz v0.3.0+
 - GoPro video file (Hero 11/12/13 GPMF format)
 
 Usage:

@@ -11,7 +11,7 @@ Gyroscope & Accelerometer Features:
 - Foundation for video stabilization (GyroFlow integration)
 
 Requirements:
-- pygpmf_oz v0.2.1+
+- pygpmf_oz v0.3.0+
 - GoPro video file (Hero 5+ with gyro/accel telemetry)
 
 Usage:
@@ -136,8 +136,8 @@ def extract_gyro_data(video_file):
             print("  - Some action-specific models (Hero Max, etc.)")
         
         print("\n" + "=" * 60)
-        print("Coming Soon (v0.3.0):")
-        print("  - IMU rotation integration")
+        print("Future Enhancements (v0.4.0+):")
+        print("  - IMU rotation integration for orientation tracking")
         print("  - GyroFlow JSON export for video stabilization")
         print("  - Sensor calibration and bias correction")
         print("=" * 60)

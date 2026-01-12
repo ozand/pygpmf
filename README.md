@@ -11,13 +11,13 @@
 
 ---
 
-## 🚀 What's New in v0.2.0
+## 🚀 What's New in v0.3.0
 
-- ✅ **Python 3.9-3.13 support** (including Python 3.13!)
-- ✅ **Windows native support** with UTF-8 encoding
-- ✅ **Modernized dependencies** (numpy 1.21+, pandas 1.3+, matplotlib 3.5+)
-- ✅ **Published on PyPI** - `pip install pygpmf-oz`
-- 🔜 **Coming soon**: Hero 11-13 support, GyroFlow integration, ML analytics
+- ✅ **Hero 11-13 GPS9 support** (10Hz GPS with 9 fields: lat/lon/alt/speed2d/speed3d/days/secs/dop/fix)
+- ✅ **Gyroscope & Accelerometer module** - Extract IMU data for video stabilization
+- ✅ **134 tests passing** - Comprehensive test coverage for GPS9 and gyro functionality
+- ✅ **Full backward compatibility** - GPS5 (Hero 5-10) continues to work seamlessly
+- ✅ **UTF-8 FourCC fix** - Resolves decode errors in GPMF stream parsing
 
 📖 **Documentation**: [pygpmf-oz.readthedocs.io](https://pygpmf-oz.readthedocs.io/)  
 📋 **Full roadmap**: [docs/development/DEVELOPMENT_ROADMAP.md](docs/development/DEVELOPMENT_ROADMAP.md)  

@@ -11,7 +11,7 @@ version_match = re.search(r'__version__\s*=\s*["\']([^"\']+)["\']', init_file)
 if version_match:
     __version__ = version_match.group(1)
 else:
-    __version__ = "0.2.0"
+    __version__ = "0.3.0"
 
 if __name__ == "__main__":
     setup(
