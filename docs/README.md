@@ -6,11 +6,11 @@
 
 ## 🚀 Quick Start
 
-| Document | Description |
-|----------|-------------|
-| [📖 Main README](../README.md) | Project overview and installation |
-| [⚡ Quick Reference](QUICK_REFERENCE.md) | 5-minute guide to publishing releases |
-| [📋 Master Release Guide](MASTER_RELEASE_GUIDE.md) | Complete release process |
+| Document                                          | Description                           |
+| ------------------------------------------------- | ------------------------------------- |
+| [📖 Main README](../README.md)                     | Project overview and installation     |
+| [⚡ Quick Reference](QUICK_REFERENCE.md)           | 5-minute guide to publishing releases |
+| [📋 Master Release Guide](MASTER_RELEASE_GUIDE.md) | Complete release process              |
 
 ---
 

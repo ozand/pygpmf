@@ -69,6 +69,28 @@ secrets.json
 *token*
 .secrets/
 
+# Temporary files and folders
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Benchmarks and profiling
+.benchmarks/
+.pytest-benchmark/
+*.prof
+
+# Logs
+*.log
+logs/
+
+# Personal notes and journals
+journals/
+
 # Test data (large files)
 tests/data/*.MP4
 tests/data/*.mp4
