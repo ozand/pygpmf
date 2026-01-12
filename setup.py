@@ -16,8 +16,8 @@ else:
 if __name__ == "__main__":
     setup(
         name="pygpmf_oz",
-        author="Alexis Mignon",
-        author_email="alexis.mignon@gmail.com",
+        author="ozand",
+        author_email="ozand@users.noreply.github.com",
         description="Python library for extracting GPS and sensor telemetry from GoPro videos (Hero 5-13). Supports GPS5/GPS9 (10Hz), gyroscope, accelerometer. Python 3.9-3.13.",
         long_description=README,
         long_description_content_type="text/markdown",
