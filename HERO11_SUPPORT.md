@@ -36,14 +36,14 @@ Comprehensive GPMF format analysis completed with detailed specifications for He
 - **Hero 13**: GPS9 at 10Hz (restored)
 
 ### New GPMF Fields (Hero 11+)
-| Field | Type | Frequency | Purpose |
-|---|---|---|---|
-| GPS9 | Complex 9-field | 10Hz | Enhanced GPS with DOP & fix status |
-| GPSU | UTC string | 1Hz | Precise time with milliseconds |
-| GPSF | Byte | 1Hz | Fix status (0/2/3) |
-| GPSP | Short | 1Hz | Dilution of Precision |
-| GPSA | Reference | 1Hz | Altitude system (WGS84) |
-| MINF | Model ID | Once | Camera model identification |
+| Field | Type            | Frequency | Purpose                            |
+| ----- | --------------- | --------- | ---------------------------------- |
+| GPS9  | Complex 9-field | 10Hz      | Enhanced GPS with DOP & fix status |
+| GPSU  | UTC string      | 1Hz       | Precise time with milliseconds     |
+| GPSF  | Byte            | 1Hz       | Fix status (0/2/3)                 |
+| GPSP  | Short           | 1Hz       | Dilution of Precision              |
+| GPSA  | Reference       | 1Hz       | Altitude system (WGS84)            |
+| MINF  | Model ID        | Once      | Camera model identification        |
 
 ### GPS9 Structure (Hero 11+)
 ```
@@ -52,11 +52,11 @@ GPS9: latitude, longitude, altitude, speed_2d, speed_3d,
 ```
 
 ### Compatibility Matrix
-| Feature | Hero 5-10 | Hero 11 | Hero 12 | Hero 13 |
-|---|---|---|---|---|
-| GPS5 | 5Hz | 10Hz | None | None |
-| GPS9 | - | ✓ | - | ✓ |
-| Time precision | Low | ms precision | - | ms precision |
+| Feature        | Hero 5-10 | Hero 11      | Hero 12 | Hero 13      |
+| -------------- | --------- | ------------ | ------- | ------------ |
+| GPS5           | 5Hz       | 10Hz         | None    | None         |
+| GPS9           | -         | ✓            | -       | ✓            |
+| Time precision | Low       | ms precision | -       | ms precision |
 
 ## Implementation Strategy
 

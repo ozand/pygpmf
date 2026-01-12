@@ -119,15 +119,15 @@ else:
 - **Coverage**: 79.77% (up from 82% baseline)
 
 **Coverage Breakdown**:
-| Module | Coverage | Change |
-|--------|----------|--------|
-| `__init__.py` | 100% | +1% (now exports gyro) |
-| `__main__.py` | 91.95% | — |
-| `gps.py` | 83.33% | +16.66% (GPS9 tests) |
-| `gps_plot.py` | 67.21% | — |
-| `gyro.py` | 48.00% | NEW module |
-| `io.py` | 87.50% | — |
-| `parse.py` | 90.91% | — |
+| Module        | Coverage | Change                 |
+| ------------- | -------- | ---------------------- |
+| `__init__.py` | 100%     | +1% (now exports gyro) |
+| `__main__.py` | 91.95%   | —                      |
+| `gps.py`      | 83.33%   | +16.66% (GPS9 tests)   |
+| `gps_plot.py` | 67.21%   | —                      |
+| `gyro.py`     | 48.00%   | NEW module             |
+| `io.py`       | 87.50%   | —                      |
+| `parse.py`    | 90.91%   | —                      |
 
 **New Tests Added**:
 - 7 Hero 11-13 GPS9 tests
