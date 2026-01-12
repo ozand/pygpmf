@@ -177,16 +177,16 @@ The pygpmf_oz library has been successfully prepared for v0.3.0 release with:
 
 **Key Features**:
 
-| Feature | Details |
-|---------|---------|
-| **Trigger Events** | Git tag push (v*.*.*) + workflow_dispatch manual |
-| **Security Model** | OIDC Trusted Publishing (no static API keys) |
-| **Token Lifecycle** | Auto-generated, used once, expires immediately |
-| **Publication Strategy** | TestPyPI first (validation), then PyPI (safety gate) |
-| **Approval Gate** | Required for PyPI job (manual review in GitHub Actions) |
-| **Artifact Handling** | Build once, reuse across jobs via artifact upload/download |
-| **Release Creation** | Auto-generated GitHub Release with attached dist files |
-| **Python Versions** | Publishes py3 universal wheel (3.9-3.13 support) |
+| Feature                  | Details                                                    |
+| ------------------------ | ---------------------------------------------------------- |
+| **Trigger Events**       | Git tag push (v*.*.*) + workflow_dispatch manual           |
+| **Security Model**       | OIDC Trusted Publishing (no static API keys)               |
+| **Token Lifecycle**      | Auto-generated, used once, expires immediately             |
+| **Publication Strategy** | TestPyPI first (validation), then PyPI (safety gate)       |
+| **Approval Gate**        | Required for PyPI job (manual review in GitHub Actions)    |
+| **Artifact Handling**    | Build once, reuse across jobs via artifact upload/download |
+| **Release Creation**     | Auto-generated GitHub Release with attached dist files     |
+| **Python Versions**      | Publishes py3 universal wheel (3.9-3.13 support)           |
 
 **Configuration**:
 
@@ -277,7 +277,7 @@ b0bd22c Commit updated documentation for Hero 11-13 support (Task 5)
 https://pypi.org/manage/account/publishing/
 ```
 - Project: `pygpmf-oz`
-- Repository: `alexis-mignon/pygpmf`
+- Repository: `ozand/pygpmf`
 - Workflow: `.github/workflows/publish-to-pypi.yml`
 - Environment: `pypi`
 

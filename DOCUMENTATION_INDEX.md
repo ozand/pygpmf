@@ -22,35 +22,35 @@
 
 ### Phase 1: Getting Started
 
-| Document | Purpose | Duration |
-|----------|---------|----------|
-| **[MASTER_RELEASE_GUIDE.md](MASTER_RELEASE_GUIDE.md)** | Quick reference for entire release | 5 min |
-| **[PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)** | Visual status dashboard and deliverables | 5 min |
-| **[RELEASE_NOTES_0_3_0.md](RELEASE_NOTES_0_3_0.md)** | What's new, features, upgrade path | 5 min |
+| Document                                               | Purpose                                  | Duration |
+| ------------------------------------------------------ | ---------------------------------------- | -------- |
+| **[MASTER_RELEASE_GUIDE.md](MASTER_RELEASE_GUIDE.md)** | Quick reference for entire release       | 5 min    |
+| **[PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)**         | Visual status dashboard and deliverables | 5 min    |
+| **[RELEASE_NOTES_0_3_0.md](RELEASE_NOTES_0_3_0.md)**   | What's new, features, upgrade path       | 5 min    |
 
 ### Phase 2: Setup & Configuration
 
-| Document | Purpose | Duration |
-|----------|---------|----------|
-| **[GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md)** | How to register Trusted Publishers | 10 min |
-| **[GITHUB_ACTIONS_QUICK_REFERENCE.md](GITHUB_ACTIONS_QUICK_REFERENCE.md)** | 4-step quick deployment guide | 5 min |
-| **[RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)** | Step-by-step publication checklist | 10 min |
+| Document                                                                   | Purpose                            | Duration |
+| -------------------------------------------------------------------------- | ---------------------------------- | -------- |
+| **[GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md)**                     | How to register Trusted Publishers | 10 min   |
+| **[GITHUB_ACTIONS_QUICK_REFERENCE.md](GITHUB_ACTIONS_QUICK_REFERENCE.md)** | 4-step quick deployment guide      | 5 min    |
+| **[RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)**                           | Step-by-step publication checklist | 10 min   |
 
 ### Phase 3: Deep Dives & References
 
-| Document | Purpose | Duration |
-|----------|---------|----------|
-| **[GITHUB_ACTIONS_PYPI_DEPLOYMENT.md](GITHUB_ACTIONS_PYPI_DEPLOYMENT.md)** | Comprehensive deployment guide | 30 min |
-| **[RELEASE_IMPLEMENTATION_SUMMARY.md](RELEASE_IMPLEMENTATION_SUMMARY.md)** | Implementation details and architecture | 15 min |
-| **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)** | For teams upgrading from v0.2.1 | 15 min |
+| Document                                                                   | Purpose                                 | Duration |
+| -------------------------------------------------------------------------- | --------------------------------------- | -------- |
+| **[GITHUB_ACTIONS_PYPI_DEPLOYMENT.md](GITHUB_ACTIONS_PYPI_DEPLOYMENT.md)** | Comprehensive deployment guide          | 30 min   |
+| **[RELEASE_IMPLEMENTATION_SUMMARY.md](RELEASE_IMPLEMENTATION_SUMMARY.md)** | Implementation details and architecture | 15 min   |
+| **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)**                           | For teams upgrading from v0.2.1         | 15 min   |
 
 ### Phase 4: Backups & Additional Resources
 
-| Document | Purpose | Duration |
-|----------|---------|----------|
-| **[PYPI_UPLOAD_0_3_0.md](PYPI_UPLOAD_0_3_0.md)** | Manual PyPI upload (backup method) | 5 min |
-| **[PYPI_UPLOAD.md](PYPI_UPLOAD.md)** | General PyPI upload instructions | 5 min |
-| **[EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md)** | High-level project summary | 5 min |
+| Document                                         | Purpose                            | Duration |
+| ------------------------------------------------ | ---------------------------------- | -------- |
+| **[PYPI_UPLOAD_0_3_0.md](PYPI_UPLOAD_0_3_0.md)** | Manual PyPI upload (backup method) | 5 min    |
+| **[PYPI_UPLOAD.md](PYPI_UPLOAD.md)**             | General PyPI upload instructions   | 5 min    |
+| **[EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md)** | High-level project summary         | 5 min    |
 
 ---
 
@@ -152,13 +152,13 @@ Documentation by Type:
 
 ## ⏳ What Needs User Action
 
-| Step | Time | Requirement |
-|------|------|-------------|
+| Step                           | Time  | Requirement                    |
+| ------------------------------ | ----- | ------------------------------ |
 | 1. Register Trusted Publishers | 5 min | Web UI registration (one-time) |
-| 2. Create release tag | 1 min | Git command |
-| 3. Push tag | 1 min | Git push |
-| 4. Approve deployment | 1 min | GitHub Actions tab |
-| 5. Verify publication | 2 min | Check PyPI website |
+| 2. Create release tag          | 1 min | Git command                    |
+| 3. Push tag                    | 1 min | Git push                       |
+| 4. Approve deployment          | 1 min | GitHub Actions tab             |
+| 5. Verify publication          | 2 min | Check PyPI website             |
 
 **Total Time**: ~15 minutes to production publication
 

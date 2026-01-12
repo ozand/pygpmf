@@ -173,17 +173,21 @@ conda install geopandas
 
 MIT License - см. [LICENSE](LICENSE)
 
-## 👏 Благодарности
+## 👏 Благодарности и атрибуция
 
-- **Оригинальный автор**: Alexis Mignon
-- **Форк и адаптация**: ozand
-- **Формат GPMF**: [GoPro GitHub](https://github.com/_oz)
-- [PyPI Package](https://pypi.org/project/pygpmf_oz/gopro/gpmf-parser)
+**Автор и сопровождающий**: ozand  
+**Оригинальный проект**: [pygpmf](https://github.com/alexis-mignon/pygpmf) от Alexis Mignon
+
+Данный проект (`pygpmf-oz`) является модернизированным форком оригинальной библиотеки `pygpmf` от Alexis Mignon.  
+Ключевые улучшения: поддержка Python 3.9-3.13, совместимость с Windows, активная поддержка.
+
+**Формат GPMF**: [GoPro GPMF Parser](https://github.com/gopro/gpmf-parser)
 
 ## 🔗 Ссылки
 
 - [GitHub Repository](https://github.com/ozand/pygpmf)
-- [Оригинальный проект](https://github.com/alexis-mignon/pygpmf)
+- [PyPI Package](https://pypi.org/project/pygpmf-oz/)
+- [Оригинальный проект](https://github.com/alexis-mignon/pygpmf) (Alexis Mignon)
 - [GPMF Parser](https://github.com/gopro/gpmf-parser)
 
 ## 📮 Контакты
@@ -193,5 +197,5 @@ MIT License - см. [LICENSE](LICENSE)
 ---
 
 **Статус проекта**: Активная разработка  
-**Версия**: 0.2.0  
+**Версия**: 0.3.0  
 **Последнее обновление**: Январь 2026

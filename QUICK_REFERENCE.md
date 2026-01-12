@@ -22,13 +22,13 @@
 
 ## 🔗 CRITICAL LINKS
 
-| Action | Link |
-|--------|------|
+| Action         | Link                                               |
+| -------------- | -------------------------------------------------- |
 | **Start Here** | [MASTER_RELEASE_GUIDE.md](MASTER_RELEASE_GUIDE.md) |
-| **Navigation** | [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) |
-| **Setup** | [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md) |
-| **Checklist** | [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) |
-| **What's New** | [RELEASE_NOTES_0_3_0.md](RELEASE_NOTES_0_3_0.md) |
+| **Navigation** | [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md)   |
+| **Setup**      | [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md) |
+| **Checklist**  | [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)       |
+| **What's New** | [RELEASE_NOTES_0_3_0.md](RELEASE_NOTES_0_3_0.md)   |
 
 ---
 
@@ -41,7 +41,7 @@
 
 # Fill in:
 # Project: pygpmf-oz
-# Repo: alexis-mignon/pygpmf
+# Repo: ozand/pygpmf
 # Workflow: .github/workflows/publish-to-pypi.yml
 # Env: pypi (or testpypi)
 ```
@@ -81,16 +81,16 @@ TOTAL                  ███████████████████
 
 ## 📊 KEY METRICS
 
-| Metric | Value | Status |
-|--------|-------|--------|
-| Version | 0.3.0 | ✅ |
-| Tests | 134/134 | ✅ |
-| Coverage | 79.77% | ✅ |
-| Breaking Changes | 0 | ✅ |
-| Docs | 13 guides | ✅ |
-| Artifacts | 2 files | ✅ |
-| Wheel Size | 33.8 KB | ✅ |
-| Source Size | 30.4 KB | ✅ |
+| Metric           | Value     | Status |
+| ---------------- | --------- | ------ |
+| Version          | 0.3.0     | ✅      |
+| Tests            | 134/134   | ✅      |
+| Coverage         | 79.77%    | ✅      |
+| Breaking Changes | 0         | ✅      |
+| Docs             | 13 guides | ✅      |
+| Artifacts        | 2 files   | ✅      |
+| Wheel Size       | 33.8 KB   | ✅      |
+| Source Size      | 30.4 KB   | ✅      |
 
 ---
 
@@ -105,29 +105,29 @@ TOTAL                  ███████████████████
 
 ## ⏳ TIMELINE
 
-| Phase | Status | Duration |
-|-------|--------|----------|
-| Code & Testing | ✅ Done | - |
-| Build | ✅ Done | - |
-| Documentation | ✅ Done | - |
-| GitHub Actions | ✅ Done | - |
-| **User Setup** | ⏳ Next | 5 min |
-| **Tag & Push** | ⏳ Next | 2 min |
-| **Approval** | ⏳ Next | 1 min |
-| **Publication** | ⏳ Automated | 3 min |
-| **Verification** | ⏳ Next | 2 min |
-| **TOTAL** | - | ~15 min |
+| Phase            | Status      | Duration |
+| ---------------- | ----------- | -------- |
+| Code & Testing   | ✅ Done      | -        |
+| Build            | ✅ Done      | -        |
+| Documentation    | ✅ Done      | -        |
+| GitHub Actions   | ✅ Done      | -        |
+| **User Setup**   | ⏳ Next      | 5 min    |
+| **Tag & Push**   | ⏳ Next      | 2 min    |
+| **Approval**     | ⏳ Next      | 1 min    |
+| **Publication**  | ⏳ Automated | 3 min    |
+| **Verification** | ⏳ Next      | 2 min    |
+| **TOTAL**        | -           | ~15 min  |
 
 ---
 
 ## 🚨 TROUBLESHOOTING
 
-| Problem | Solution |
-|---------|----------|
-| "Trusted Publisher not found" | Verify project name, repo, workflow file at pypi.org |
-| "OIDC token failed" | Check workflow has `permissions: id-token: write` |
-| "Job stuck waiting" | This is normal - approve in GitHub Actions tab |
-| "Package not visible" | Wait 2-3 min, refresh PyPI, try `pip install --no-cache` |
+| Problem                       | Solution                                                 |
+| ----------------------------- | -------------------------------------------------------- |
+| "Trusted Publisher not found" | Verify project name, repo, workflow file at pypi.org     |
+| "OIDC token failed"           | Check workflow has `permissions: id-token: write`        |
+| "Job stuck waiting"           | This is normal - approve in GitHub Actions tab           |
+| "Package not visible"         | Wait 2-3 min, refresh PyPI, try `pip install --no-cache` |
 
 More help: [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md) - Troubleshooting section
 
@@ -163,12 +163,12 @@ Then follow the "Quick Start" section.
 
 ## 📞 SUPPORT
 
-| Question | Answer |
-|----------|--------|
-| How to register? | [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md) |
+| Question             | Answer                                                               |
+| -------------------- | -------------------------------------------------------------------- |
+| How to register?     | [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md)                   |
 | How to troubleshoot? | [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md) - Troubleshooting |
-| What's in v0.3.0? | [RELEASE_NOTES_0_3_0.md](RELEASE_NOTES_0_3_0.md) |
-| Need complete guide? | [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) |
+| What's in v0.3.0?    | [RELEASE_NOTES_0_3_0.md](RELEASE_NOTES_0_3_0.md)                     |
+| Need complete guide? | [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md)                     |
 
 ---
 

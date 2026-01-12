@@ -12,13 +12,13 @@ Go to: **https://pypi.org/manage/account/publishing/**
 
 Click "Add a new pending publisher" and fill in:
 
-| Field | Value |
-|-------|-------|
-| **PyPI Project Name** | `pygpmf-oz` |
-| **Owner** | `alexis-mignon` (or your username) |
-| **Repository Name** | `pygpmf` |
-| **Workflow Filename** | `.github/workflows/publish-to-pypi.yml` |
-| **GitHub Environment Name** | `pypi` |
+| Field                       | Value                                   |
+| --------------------------- | --------------------------------------- |
+| **PyPI Project Name**       | `pygpmf-oz`                             |
+| **Owner**                   | `alexis-mignon` (or your username)      |
+| **Repository Name**         | `pygpmf`                                |
+| **Workflow Filename**       | `.github/workflows/publish-to-pypi.yml` |
+| **GitHub Environment Name** | `pypi`                                  |
 
 ✅ Click "Add pending publisher"
 
@@ -168,7 +168,7 @@ When publishing:
 **Fix**:
 1. Go to https://pypi.org/manage/account/publishing/
 2. Verify exact project name: `pygpmf-oz`
-3. Verify exact repository: `alexis-mignon/pygpmf`
+3. Verify exact repository: `ozand/pygpmf`
 4. Verify exact workflow filename: `.github/workflows/publish-to-pypi.yml`
 5. Verify exact environment name: `pypi`
 

@@ -19,7 +19,7 @@ https://test.pypi.org/manage/account/publishing/
 
 # Fill in for both:
 # Project name: pygpmf-oz
-# Repository: alexis-mignon/pygpmf
+# Repository: ozand/pygpmf
 # Workflow: .github/workflows/publish-to-pypi.yml
 # Environment: pypi (for PyPI), testpypi (for TestPyPI)
 ```
@@ -56,16 +56,16 @@ python -c "import gpmf; print(gpmf.__version__)"  # Should output: 0.3.0
 
 ## 📚 Complete Documentation Map
 
-| Document | Purpose | Read Time | When |
-|----------|---------|-----------|------|
-| **[PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)** | Visual status & deliverables | 5 min | **START HERE** |
-| **[RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)** | Step-by-step publication tasks | 10 min | Before publishing |
-| **[GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md)** | Trusted Publisher registration | 10 min | Setup phase |
-| **[RELEASE_NOTES_0_3_0.md](RELEASE_NOTES_0_3_0.md)** | What's new in v0.3.0 | 5 min | Share with users |
-| **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)** | For teams upgrading v0.2.1→0.3.0 | 15 min | Share with external teams |
-| **[GITHUB_ACTIONS_PYPI_DEPLOYMENT.md](GITHUB_ACTIONS_PYPI_DEPLOYMENT.md)** | Deep dive deployment guide | 30 min | Reference, troubleshooting |
-| **[GITHUB_ACTIONS_QUICK_REFERENCE.md](GITHUB_ACTIONS_QUICK_REFERENCE.md)** | Quick 4-step deployment | 5 min | Reference card |
-| **[RELEASE_IMPLEMENTATION_SUMMARY.md](RELEASE_IMPLEMENTATION_SUMMARY.md)** | Implementation details | 15 min | Full context |
+| Document                                                                   | Purpose                          | Read Time | When                       |
+| -------------------------------------------------------------------------- | -------------------------------- | --------- | -------------------------- |
+| **[PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)**                             | Visual status & deliverables     | 5 min     | **START HERE**             |
+| **[RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)**                           | Step-by-step publication tasks   | 10 min    | Before publishing          |
+| **[GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md)**                     | Trusted Publisher registration   | 10 min    | Setup phase                |
+| **[RELEASE_NOTES_0_3_0.md](RELEASE_NOTES_0_3_0.md)**                       | What's new in v0.3.0             | 5 min     | Share with users           |
+| **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)**                           | For teams upgrading v0.2.1→0.3.0 | 15 min    | Share with external teams  |
+| **[GITHUB_ACTIONS_PYPI_DEPLOYMENT.md](GITHUB_ACTIONS_PYPI_DEPLOYMENT.md)** | Deep dive deployment guide       | 30 min    | Reference, troubleshooting |
+| **[GITHUB_ACTIONS_QUICK_REFERENCE.md](GITHUB_ACTIONS_QUICK_REFERENCE.md)** | Quick 4-step deployment          | 5 min     | Reference card             |
+| **[RELEASE_IMPLEMENTATION_SUMMARY.md](RELEASE_IMPLEMENTATION_SUMMARY.md)** | Implementation details           | 15 min    | Full context               |
 
 ---
 
@@ -122,13 +122,13 @@ python -c "import gpmf; print(gpmf.__version__)"  # Should output: 0.3.0
 
 ## ⏳ What Needs User Action
 
-| # | Action | Duration | Required |
-|---|--------|----------|----------|
-| 1 | Register Trusted Publishers | 5 min | **YES** |
-| 2 | Create git tag | 1 min | **YES** |
-| 3 | Push tag | 1 min | **YES** |
-| 4 | Approve PyPI deployment | 1 min | **YES** |
-| 5 | Verify publication | 2 min | **Optional** |
+| #   | Action                      | Duration | Required     |
+| --- | --------------------------- | -------- | ------------ |
+| 1   | Register Trusted Publishers | 5 min    | **YES**      |
+| 2   | Create git tag              | 1 min    | **YES**      |
+| 3   | Push tag                    | 1 min    | **YES**      |
+| 4   | Approve PyPI deployment     | 1 min    | **YES**      |
+| 5   | Verify publication          | 2 min    | **Optional** |
 
 **Total Time**: ~15 minutes (mostly automation running)
 
@@ -182,7 +182,7 @@ TRUSTED PUBLISHER SETUP
 □ Registered PyPI Trusted Publisher  # https://pypi.org/manage/account/publishing/
 □ Registered TestPyPI Trusted Publisher  # https://test.pypi.org/manage/account/publishing/
 □ Environment protection enabled    # GitHub Settings → Environments → pypi
-□ Repository name correct (alexis-mignon/pygpmf)
+□ Repository name correct (ozand/pygpmf)
 □ Workflow filename correct (.github/workflows/publish-to-pypi.yml)
 
 PUBLICATION
@@ -205,13 +205,13 @@ POST-PUBLICATION
 
 ## 🚨 Troubleshooting Quick Reference
 
-| Issue | Solution | Docs |
-|-------|----------|------|
-| "Trusted Publisher not found" | Verify project name, repo, workflow filename | [Setup Guide](GITHUB_ACTIONS_SETUP.md) |
-| "OIDC token request failed" | Check `permissions: id-token: write` in workflow | [Deployment Guide](GITHUB_ACTIONS_PYPI_DEPLOYMENT.md) |
-| "Job waiting for approval" | This is normal! Approve in GitHub Actions tab | [Checklist](RELEASE_CHECKLIST.md) |
-| "Package not visible on PyPI" | Wait 2-3 min for cache. Try `pip install --no-cache` | [Verification Section](RELEASE_CHECKLIST.md) |
-| "Build artifact not found in next job" | Check artifact upload/download in workflow | [Workflow Docs](GITHUB_ACTIONS_PYPI_DEPLOYMENT.md) |
+| Issue                                  | Solution                                             | Docs                                                  |
+| -------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
+| "Trusted Publisher not found"          | Verify project name, repo, workflow filename         | [Setup Guide](GITHUB_ACTIONS_SETUP.md)                |
+| "OIDC token request failed"            | Check `permissions: id-token: write` in workflow     | [Deployment Guide](GITHUB_ACTIONS_PYPI_DEPLOYMENT.md) |
+| "Job waiting for approval"             | This is normal! Approve in GitHub Actions tab        | [Checklist](RELEASE_CHECKLIST.md)                     |
+| "Package not visible on PyPI"          | Wait 2-3 min for cache. Try `pip install --no-cache` | [Verification Section](RELEASE_CHECKLIST.md)          |
+| "Build artifact not found in next job" | Check artifact upload/download in workflow           | [Workflow Docs](GITHUB_ACTIONS_PYPI_DEPLOYMENT.md)    |
 
 ---
 

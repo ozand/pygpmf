@@ -8,7 +8,7 @@
 
 ### Step 1: Add API Key to GitHub Secrets (2 minutes)
 
-1. Go to your GitHub repository: **https://github.com/alexis-mignon/pygpmf**
+1. Go to your GitHub repository: **https://github.com/ozand/pygpmf**
 2. Navigate to: **Settings** → **Secrets and variables** → **Actions**
 3. Click: **New repository secret**
 4. Fill in:
@@ -75,7 +75,7 @@ When you push a release tag:
 After pushing a release tag, verify:
 
 1. **PyPI**: Check https://pypi.org/project/pygpmf-oz/
-2. **GitHub Release**: Check https://github.com/alexis-mignon/pygpmf/releases
+2. **GitHub Release**: Check https://github.com/ozand/pygpmf/releases
 3. **ReadTheDocs**: Check https://pygpmf-oz.readthedocs.io/ or your project URL
 
 ---

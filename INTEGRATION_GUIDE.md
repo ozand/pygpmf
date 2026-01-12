@@ -89,11 +89,11 @@ for block in gps_blocks:
 ### Fix Status Values
 The `fix` field in `GPSData` indicates satellite lock:
 
-| Value | Meaning | Coordinates |
-|-------|---------|------------|
-| `0` | No fix | All zeros |
-| `2` | 2D fix | Valid lat/lon, alt unreliable |
-| `3` | 3D fix | Valid lat/lon/alt |
+| Value | Meaning | Coordinates                   |
+| ----- | ------- | ----------------------------- |
+| `0`   | No fix  | All zeros                     |
+| `2`   | 2D fix  | Valid lat/lon, alt unreliable |
+| `3`   | 3D fix  | Valid lat/lon/alt             |
 
 ### "No Fix" Scenario
 When `fix == 0`:
@@ -119,17 +119,17 @@ elif gps_data.fix in [2, 3]:
 ### GPS9 Field Breakdown
 When parsing GPS9, all 9 fields are available, but only the first 5 are used for GPSData compatibility:
 
-| Field # | Name | Unit | Used? |
-|---------|------|------|-------|
-| 1 | Latitude | deg | ✅ |
-| 2 | Longitude | deg | ✅ |
-| 3 | Altitude | m | ✅ |
-| 4 | Speed (2D) | m/s | ✅ |
-| 5 | Speed (3D) | m/s | ✅ |
-| 6 | Days since 2000 | days | — |
-| 7 | Seconds since midnight | s | — |
-| 8 | DOP (Dilution of Precision) | — | — |
-| 9 | Fix status | — | — |
+| Field # | Name                        | Unit | Used? |
+| ------- | --------------------------- | ---- | ----- |
+| 1       | Latitude                    | deg  | ✅     |
+| 2       | Longitude                   | deg  | ✅     |
+| 3       | Altitude                    | m    | ✅     |
+| 4       | Speed (2D)                  | m/s  | ✅     |
+| 5       | Speed (3D)                  | m/s  | ✅     |
+| 6       | Days since 2000             | days | —     |
+| 7       | Seconds since midnight      | s    | —     |
+| 8       | DOP (Dilution of Precision) | —    | —     |
+| 9       | Fix status                  | —    | —     |
 
 Future versions will expose fields 6-9 for advanced analytics.
 
@@ -212,15 +212,15 @@ for block in accel_blocks:
 
 ## Comparing 0.2.1 vs 0.3.0
 
-| Feature | 0.2.1 | 0.3.0 |
-|---------|-------|-------|
-| GPS5 support | ✅ | ✅ |
-| GPS9 (Hero 11-13) | ❌ | ✅ |
-| Gyroscope/Accel | ❌ | ✅ (read-only) |
-| UTF-8 FourCC fix | ❌ | ✅ |
-| GyroFlow export | ❌ | 🔄 (placeholder) |
-| Test coverage | 83.67% | 79.77% |
-| Total tests | 119 | 134 |
+| Feature           | 0.2.1  | 0.3.0           |
+| ----------------- | ------ | --------------- |
+| GPS5 support      | ✅      | ✅               |
+| GPS9 (Hero 11-13) | ❌      | ✅               |
+| Gyroscope/Accel   | ❌      | ✅ (read-only)   |
+| UTF-8 FourCC fix  | ❌      | ✅               |
+| GyroFlow export   | ❌      | 🔄 (placeholder) |
+| Test coverage     | 83.67% | 79.77%          |
+| Total tests       | 119    | 134             |
 
 ---
 

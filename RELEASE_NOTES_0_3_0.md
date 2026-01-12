@@ -18,10 +18,10 @@ Released **pygpmf_oz v0.3.0** with:
 
 ## Build Artifacts
 
-| Artifact | Size | Status |
-|----------|------|--------|
+| Artifact                           | Size    | Status     |
+| ---------------------------------- | ------- | ---------- |
 | `pygpmf_oz-0.3.0-py3-none-any.whl` | 33.8 KB | ✅ Verified |
-| `pygpmf_oz-0.3.0.tar.gz` | 30.4 KB | ✅ Verified |
+| `pygpmf_oz-0.3.0.tar.gz`           | 30.4 KB | ✅ Verified |
 
 Both pass `twine check` with no warnings.
 
@@ -73,12 +73,12 @@ Coverage Summary:
 
 ## Documentation Additions
 
-| Document | Purpose |
-|----------|---------|
-| `INTEGRATION_GUIDE.md` | FFmpeg-first extraction pattern, GPS fix interpretation, troubleshooting |
-| `HERO11_SUPPORT.md` | Technical specs: GPS9 fields, binary formats, compatibility matrix |
-| `examples/example_gps9_extract.py` | GPS9 extraction and GPX export demo |
-| `examples/example_gyro_extract.py` | Gyro/accel data parsing example |
+| Document                           | Purpose                                                                  |
+| ---------------------------------- | ------------------------------------------------------------------------ |
+| `INTEGRATION_GUIDE.md`             | FFmpeg-first extraction pattern, GPS fix interpretation, troubleshooting |
+| `HERO11_SUPPORT.md`                | Technical specs: GPS9 fields, binary formats, compatibility matrix       |
+| `examples/example_gps9_extract.py` | GPS9 extraction and GPX export demo                                      |
+| `examples/example_gyro_extract.py` | Gyro/accel data parsing example                                          |
 
 ---
 

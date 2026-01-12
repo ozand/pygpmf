@@ -43,13 +43,13 @@
 
 **PyPI**: https://pypi.org/manage/account/publishing/
 - Project name: `pygpmf-oz`
-- Repository: `alexis-mignon/pygpmf`
+- Repository: `ozand/pygpmf`
 - Workflow: `.github/workflows/publish-to-pypi.yml`
 - Environment: `pypi`
 
 **TestPyPI**: https://test.pypi.org/manage/account/publishing/
 - Project name: `pygpmf-oz`
-- Repository: `alexis-mignon/pygpmf`
+- Repository: `ozand/pygpmf`
 - Workflow: `.github/workflows/publish-to-pypi.yml`
 - Environment: `testpypi`
 
@@ -158,17 +158,17 @@ Share [RELEASE_NOTES_0_3_0.md](RELEASE_NOTES_0_3_0.md) and [INTEGRATION_GUIDE.md
 
 ## Release Timeline
 
-| Phase | Status | Duration | Blocker |
-|-------|--------|----------|---------|
-| Pre-release validation | ✅ Complete | - | None |
-| Documentation | ✅ Complete | - | None |
-| Automation setup | ✅ Complete | - | None |
-| Trusted Publisher registration | ⏳ Pending | 5 min | **User registration required** |
-| Environment protection (optional) | ⏳ Pending | 2 min | None |
-| Create + push tag | ⏳ Pending | 2 min | Trusted Publisher registration |
-| Approve PyPI deployment | ⏳ Pending | 1 min | Tag push |
-| Verification | ⏳ Pending | 2 min | PyPI approval |
-| **Total (expedited)** | **5+ min** | - | User action required |
+| Phase                             | Status     | Duration | Blocker                        |
+| --------------------------------- | ---------- | -------- | ------------------------------ |
+| Pre-release validation            | ✅ Complete | -        | None                           |
+| Documentation                     | ✅ Complete | -        | None                           |
+| Automation setup                  | ✅ Complete | -        | None                           |
+| Trusted Publisher registration    | ⏳ Pending  | 5 min    | **User registration required** |
+| Environment protection (optional) | ⏳ Pending  | 2 min    | None                           |
+| Create + push tag                 | ⏳ Pending  | 2 min    | Trusted Publisher registration |
+| Approve PyPI deployment           | ⏳ Pending  | 1 min    | Tag push                       |
+| Verification                      | ⏳ Pending  | 2 min    | PyPI approval                  |
+| **Total (expedited)**             | **5+ min** | -        | User action required           |
 
 ---
 
@@ -212,7 +212,7 @@ Impact: Complete removal, rare (only for malware/legal issues)
 1. Package appears on https://pypi.org/project/pygpmf-oz/0.3.0/
 2. Installation works: `pip install pygpmf-oz==0.3.0`
 3. Version detected: `import gpmf; gpmf.__version__ == "0.3.0"`
-4. GitHub Release created at: https://github.com/alexis-mignon/pygpmf/releases/tag/v0.3.0
+4. GitHub Release created at: https://github.com/ozand/pygpmf/releases/tag/v0.3.0
 5. Dist artifacts attached to release (wheel + source)
 6. No warnings in PyPI project page
 
@@ -220,13 +220,13 @@ Impact: Complete removal, rare (only for malware/legal issues)
 
 ## Files Ready for Publication
 
-| File | Size | Type | Checksum |
-|------|------|------|----------|
-| `pygpmf_oz-0.3.0-py3-none-any.whl` | 33.8 KB | Binary | ✅ Verified |
-| `pygpmf_oz-0.3.0.tar.gz` | 30.4 KB | Source | ✅ Verified |
-| `RELEASE_NOTES_0_3_0.md` | 5.7 KB | Docs | ✅ Ready |
-| `INTEGRATION_GUIDE.md` | 8.1 KB | Docs | ✅ Ready |
-| `.github/workflows/publish-to-pypi.yml` | 3.2 KB | Automation | ✅ Ready |
+| File                                    | Size    | Type       | Checksum   |
+| --------------------------------------- | ------- | ---------- | ---------- |
+| `pygpmf_oz-0.3.0-py3-none-any.whl`      | 33.8 KB | Binary     | ✅ Verified |
+| `pygpmf_oz-0.3.0.tar.gz`                | 30.4 KB | Source     | ✅ Verified |
+| `RELEASE_NOTES_0_3_0.md`                | 5.7 KB  | Docs       | ✅ Ready    |
+| `INTEGRATION_GUIDE.md`                  | 8.1 KB  | Docs       | ✅ Ready    |
+| `.github/workflows/publish-to-pypi.yml` | 3.2 KB  | Automation | ✅ Ready    |
 
 ---
 

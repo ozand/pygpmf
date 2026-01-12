@@ -203,16 +203,19 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Credits
+## 🙏 Credits & Attribution
 
-**Original Author**: Alexis Mignon  
-**Maintainer**: ozand  
+**Author & Maintainer**: ozand  
+**Original Project**: [pygpmf](https://github.com/alexis-mignon/pygpmf) by Alexis Mignon
+
+This project (`pygpmf-oz`) is a modernized fork of the original `pygpmf` library by Alexis Mignon.  
+Key improvements include Python 3.9-3.13 support, Windows compatibility, and active maintenance.
+
 **Contributors**: See [CHANGELOG.md](CHANGELOG.md)
-
-Based on the unmaintained [alexis-mignon/pygpmf](https://github.com/alexis-mignon/pygpmf) fork.
 
 ---
 
 **⭐ If you find this useful, please star the repo!**  
 **📦 PyPI**: https://pypi.org/project/pygpmf-oz/  
 **🐛 Issues**: https://github.com/ozand/pygpmf/issues
+
